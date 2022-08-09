@@ -1,9 +1,9 @@
 import {Grid, makeStyles } from "@material-ui/core";
+import AddJs from "./components/add";
 import Feed from "./components/feed";
 import Leftbar from "./components/leftbar";
 import Navbar from "./components/navbar";
 import Rightbar from "./components/rightbar";
-import Add from "./components/rightbar";
 
 const useStyles = makeStyles((theme) => ({
  righ:{
@@ -28,7 +28,7 @@ const App = () => {
       <Rightbar />
     </Grid>
    </Grid>
-   <Add />
+   <AddJs />
   </div>;
 };
 

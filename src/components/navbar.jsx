@@ -28,12 +28,15 @@ const useStyles = makeStyles((theme) => ({
     },
     borderRadius: theme.shape.borderRadius,
     width: "40%",
+    padding:"5px",
+    border:"1px solid black",
     [theme.breakpoints.down("sm")]: {
         display: (props) => props.open ? "flex" : "none",
         width: "70%",
     },
  },
  input:{
+    width: "100%",
     color: "#fff",
     marginLeft: theme.spacing(2),
  },

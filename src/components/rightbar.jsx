@@ -7,7 +7,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const Rightbar = () => {
-  const classes = useStyles()
+  const classes = useStyles();
   return <Container className={classes.container}>Rightbar</Container>
 };
 
